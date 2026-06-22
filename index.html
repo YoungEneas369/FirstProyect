@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Arte Fay: ilustraciones, pinturas, accesorios textiles, fotografía y clases de arte hechas con dedicación.">
+    <link rel="stylesheet" href="Artcss.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Arte Fay | Arte, ilustraciones y talleres</title>
+</head>
+<body class="scroll">
+    <header class="barra-navegacion">
+        <a class="logo" href="index.html" aria-label="Ir al inicio de Arte Fay">
+            <span class="logo-mark" aria-hidden="true">AF</span>
+            <span>Arte Fay</span>
+        </a>
+
+        <nav class="menu" aria-label="Navegación principal">
+            <div class="dropdown">
+                <button class="dropdown-toggle" type="button" aria-expanded="false">
+                    <span class="gradient-text">Catálogo</span> <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#cat-pajaritos">Pajaritos</a>
+                    <a href="#cat-pinturas">Pinturas</a>
+                    <a href="#cat-aritos">Aritos de lana</a>
+                    <a href="#cat-clases">Clases</a>
+                </div>
+            </div>
+
+            <a class="nav-social" href="https://www.instagram.com/arte_fay/" target="_blank" rel="noopener noreferrer" aria-label="Ver Instagram de Arte Fay">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="carrusel carrusel-principal" data-carrusel data-autoplay="true" data-intervalo="5200" aria-label="Imágenes destacadas de Arte Fay">
+            <div class="carrusel-ventana">
+                <div class="carrusel-pista">
+                    
+                    <article class="carrusel-slide">
+                        <button class="carrusel-boton-imagen" type="button" data-lightbox-src="WebMadre/Fiu_Portada.png" data-lightbox-title="Arte Fay" data-hero-note="Piezas, talleres y encargos en una sola mirada" data-lightbox-alt="Composición artística de Arte Fay">
+                            <img class="imagen-responsiva carrusel-imagen" src="WebMadre_2.6/Fiu_Portada.png" alt="Composición artística de Arte Fay">
+                        </button>
+                        <div class="carrusel-contenido reveal">
+                            <p class="hero-kicker kicker-especial">Arte hecho a mano</p>
+                            <h2>Arte Fay</h2>
+                            <p>Piezas con alma, clases cercanas y detalles creados para quedarse en casa.</p>
+                            <ul class="hero-confianza" aria-label="Detalles de la colección">
+                                <li>Hecho a mano</li>
+                                <li>Colecciones pequeñas</li>
+                                <li>Atención directa</li>
+                            </ul>
+                            <div class="hero-actions">
+                                <a class="btn-primario" href="#catalogo">Explorar catálogo</a>
+                                <a class="btn-secundario" href="https://wa.me/56932930827?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20consultar%20por%20Arte%20Fay." target="_blank" rel="noopener noreferrer">Cotizar por WhatsApp</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="carrusel-slide">
+                        <button class="carrusel-boton-imagen" type="button" data-lightbox-src="assets/hero-pajaros.png" data-lightbox-title="Pajaritos" data-hero-note="Colección natural para regalar, decorar o coleccionar" data-lightbox-alt="Ilustración de pajaritos en estilo Arte Fay">
+                            <img class="imagen-responsiva carrusel-imagen" src="WebMadre_2.6/Portada_2.png" alt="Ilustración de pajaritos en estilo Arte Fay">
+                        </button>
+                        <div class="carrusel-contenido reveal">
+                            <p class="hero-kicker kicker-especial">Colección destacada</p>
+                            <h2>Aritos</h2>
+                            <p>Ilustraciones inspiradas color suave y detalles hechos a mano.</p>
+                            <ul class="hero-confianza" aria-label="Detalles de la colección">
+                                <li>Listos para regalar</li>
+                                <li>Detalles naturales</li>
+                                <li>Consulta stock</li>
+                            </ul>
+                            <div class="hero-actions">
+                                <a class="btn-primario" href="Páginas/Arte_Fay_Aritos.html">Ver Aritos</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="carrusel-slide">
+                        <button class="carrusel-boton-imagen" type="button" data-lightbox-src="assets/hero-acuarelas.png" data-lightbox-title="Acuarelas" data-hero-note="Obras originales y clases para crear con calma" data-lightbox-alt="Acuarelas y manchas de color Arte Fay">
+                            <img class="imagen-responsiva carrusel-imagen" src="WebMadre_2.6/Acuarela_Portada.png" alt="Acuarelas y manchas de color Arte Fay">
+                        </button>
+                        <div class="carrusel-contenido reveal">
+                            <p class="hero-kicker kicker-especial">Obras y talleres</p>
+                            <h2>Acuarelas</h2>
+                            <p>Capas de color, texturas delicadas y obras para mirar con calma.</p>
+                            <ul class="hero-confianza" aria-label="Detalles de pinturas y talleres">
+                                <li>Obras originales</li>
+                                <li>Encargos posibles</li>
+                                <li>Talleres cercanos</li>
+                            </ul>
+                            <div class="hero-actions">
+                                <a class="btn-primario" href="Páginas/Arte_Fay_Pinturas.html">Ver pinturas</a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+
+            <button class="carrusel-control carrusel-control--anterior" type="button" data-carrusel-anterior aria-label="Imagen anterior">&#10094;</button>
+            <button class="carrusel-control carrusel-control--siguiente" type="button" data-carrusel-siguiente aria-label="Imagen siguiente">&#10095;</button>
+            <div class="carrusel-indicadores" data-carrusel-indicadores aria-label="Seleccionar imagen"></div>
+        </section>  
+
+        <section class="catalogo-seccion" id="catalogo">
+            <div class="catalogo-header reveal">
+                <span class="seccion-etiqueta">Colecciones</span>
+                <h2 class="catalogo-titulo">Elige por dónde quieres empezar</h2>
+                <p>Un recorrido visual por obras, accesorios textiles y clases para crear con calma.</p>
+            </div>
+
+            <div class="catalogo-grid">
+                <article id="cat-pajaritos" class="tarjeta-categoria reveal">
+                    <a class="tarjeta-imagen" href="Páginas/Arte_Fay_Pajaritos.html" aria-label="Ver sección Pajaritos">
+                        <img class="imagen-responsiva imagen-cubierta1" src="assets/picaflor_11.png" alt="Ilustración artística de pajaritos">
+                        <span class="tarjeta-badge">Naturaleza</span>
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Pajaritos</h3>
+                        <p>Ilustraciones y obras inspiradas en aves locales, color, movimiento y detalle.</p>
+                        <a href="Páginas/Arte_Fay_Pajaritos.html" class="btn-ver">Ver colección</a>
+                    </div>
+                </article>
+
+                <article id="cat-pinturas" class="tarjeta-categoria reveal">
+                    <a class="tarjeta-imagen" href="Páginas/Arte_Fay_Pinturas.html" aria-label="Ver sección Pinturas">
+                        <img class="imagen-responsiva imagen-cubierta1" src="WebMadre_2.6/Pintura_Portada_2.png" alt="Manchas de acuarela y pinceladas artísticas">
+                        <span class="tarjeta-badge">Originales</span>
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Pinturas</h3>
+                        <p>Obras originales y reproducciones para dar calidez visual a tus espacios.</p>
+                        <a href="Páginas/Arte_Fay_Pinturas.html" class="btn-ver">Ver obras</a>
+                    </div>
+                </article>
+
+                <article id="cat-aritos" class="tarjeta-categoria reveal">
+                    <a class="tarjeta-imagen" href="Páginas/Arte_Fay_Aritos.html" aria-label="Ver sección Aritos de lana">
+                        <img class="imagen-responsiva imagen-cubierta1" src="WebMadre_2.6/Portada_2.png" alt="Aritos textiles con colores cálidos">
+                        <span class="tarjeta-badge">Hecho a mano</span>
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Aritos de lana</h3>
+                        <p>Accesorios textiles livianos, coloridos y creados en pequeñas colecciones.</p>
+                        <a href="Páginas/Arte_Fay_Aritos.html" class="btn-ver">Ver accesorios</a>
+                    </div>
+                </article>
+
+                <article id="cat-clases" class="tarjeta-categoria reveal">
+                    <a class="tarjeta-imagen" href="Páginas/Arte_Fay_Clases.html" aria-label="Ver clases de Arte Fay">
+                        <img class="imagen-responsiva imagen-cubierta5" src="WebMadre_2.6/Clases_1.png" alt="Materiales de arte para clases y talleres">
+                        <span class="tarjeta-badge">Talleres</span>
+                    </a>
+                    <div class="tarjeta-info">
+                        <h3>Clases</h3>
+                        <p>Aprende técnicas de pintura, acuarela e ilustración con acompañamiento cercano.</p>
+                        <a href="Páginas/Arte_Fay_Clases.html" class="btn-ver">Ver talleres</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="cta-seccion" aria-label="Llama a la acción">
+            <div class="cta-contenido reveal">
+                <h2>¿Tienes un proyecto en mente?</h2>
+                <p>Cuéntanos tus ideas y crearemos algo especial para ti.</p>
+                <div class="cta-acciones">
+                    <a class="btn-primario" href="https://wa.me/56932930827?text=%C2%A1Hola!%20Tengo%20un%20proyecto%20en%20mente%20para%20Arte%20Fay." target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp "></i> Contáctanos por WhatsApp 
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="whatsapp-container">
+        <div class="whatsapp-menu" id="waMenu" aria-hidden="true">
+            <div class="wa-menu-header">
+                <h4>¿Cómo te podemos ayudar?</h4>
+                <p>Selecciona una opción para chatear:</p>
+            </div>
+            <div class="wa-menu-body">
+                <a href="https://wa.me/56932930827?text=%C2%A1Hola!%20Me%20gustar%C3%ADa%20agendar%20una%20clase%20de%20arte." target="_blank" rel="noopener noreferrer" class="wa-option">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i> Quiero agendar una clase
+                </a>
+                <a href="https://wa.me/56932930827?text=%C2%A1Hola!%20Me%20interesa%20hacer%20un%20pedido%20de%20un%20producto." target="_blank" rel="noopener noreferrer" class="wa-option">
+                    <i class="fas fa-shopping-basket" aria-hidden="true"></i> Quiero hacer un pedido
+                </a>
+                <a href="https://wa.me/56932930827?text=%C2%A1Hola!%20Tengo%20una%20consulta%20sobre%20Arte%20Fay." target="_blank" rel="noopener noreferrer" class="wa-option">
+                    <i class="fas fa-comment-dots" aria-hidden="true"></i> Otra consulta
+                </a>
+            </div>
+        </div>
+        <div class="wa-bubble">Cotiza pedidos y clases aquí</div>
+        <button class="btn-whatsapp-flotante" type="button" onclick="toggleWhatsAppMenu(event)" title="Contacto WhatsApp" aria-label="Abrir opciones de WhatsApp" aria-expanded="false" aria-controls="waMenu">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </button>
+    </div>
+
+    <footer class="pie-pagina">
+        <div class="footer-contenido">
+            <a class="footer-logo" href="index.html">Arte Fay</a>
+            <p class="footer-frase">Arte, ilustraciones y talleres con dedicación.</p>
+            <a class="footer-instagram" href="https://www.instagram.com/arte_fay/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram" aria-hidden="true"></i> @arte_fay
+            </a>
+        </div>
+        <div class="footer-derechos">
+            <p>&copy; 2026 Arte Fay. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="Art.js"></script>
+</body>
+</html>
