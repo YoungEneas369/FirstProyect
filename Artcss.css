@@ -55,7 +55,8 @@ img {
 
 .imagen-responsiva {
     width: 100%;
-    max-width: 100%;
+    max-width: 1350px;
+
     height: auto;
 }
 
