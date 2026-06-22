@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Reutilizamos tus estilos base y agregamos FontAwesome -->
+    <link rel="stylesheet" href="../Artcss.css">   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Sección Fotos - Arte Fay</title>   
+</head>
+<body class="scroll">
+
+    <!-- Barra de Navegación -->
+    <header class="barra-navegacion">
+        <a class="logo" href="../index.html" aria-label="Ir al inicio de Arte Fay">
+            <span class="logo-mark" aria-hidden="true">AF</span>
+            <span>Arte Fay</span>
+        </a>
+        <nav class="menu" aria-label="Navegación principal">
+            <a href="../index.html">Inicio</a>
+            <div class="dropdown">
+                <button class="dropdown-toggle" type="button" aria-expanded="false">
+                    Catálogo <i class="fas fa-chevron-down" aria-hidden="true"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="Arte_Fay_Pajaritos.html">Pajaritos</a>
+                    <a href="Arte_Fay_Pinturas.html">Pinturas</a>
+                    <a href="Arte_Fay_Fotos.html">Fotos</a>
+                    <a href="Arte_Fay_Aritos.html">Aritos</a>
+                    <a href="Arte_Fay_Clases.html">Clases</a>
+                </div>
+            </div>
+            <a class="nav-social" href="https://www.instagram.com/arte_fay/" target="_blank" rel="noopener noreferrer" aria-label="Ver Instagram de Arte Fay">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal de Fotos -->
+    <main class="tienda-seccion">
+        <section class="clases-intro">
+            <div class="carrusel carrusel-producto" data-carrusel data-autoplay="true" data-intervalo="4800" aria-label="Fotografías destacadas">
+                <div class="carrusel-ventana">
+                    <div class="carrusel-pista">
+                        <article class="carrusel-slide is-active">
+                            <button class="carrusel-boton-imagen" type="button" data-lightbox-src="../assets/categoria-fotos.png" data-lightbox-title="Fotografía artística" data-lightbox-alt="Fotografía artística Arte Fay">
+                                <img class="imagen-responsiva carrusel-imagen" src="../assets/categoria-fotos.png" alt="Fotografía artística Arte Fay">
+                            </button>
+                            <div class="carrusel-contenido">
+                                <span class="seccion-etiqueta">Mirada natural</span>
+                            </div>
+                        </article>
+
+                        <article class="carrusel-slide">
+                            <button class="carrusel-boton-imagen" type="button" data-lightbox-src="../assets/hero-pajaros.png" data-lightbox-title="Detalles naturales" data-lightbox-alt="Detalle natural Arte Fay">
+                                <img class="imagen-responsiva carrusel-imagen" src="../assets/hero-pajaros.png" alt="Detalle natural Arte Fay">
+                            </button>
+                            <div class="carrusel-contenido">
+                                <span class="seccion-etiqueta">Luz y composición</span>
+                            </div>
+                        </article>
+
+                        <article class="carrusel-slide">
+                            <button class="carrusel-boton-imagen" type="button" data-lightbox-src="../assets/categoria-pajaritos.png" data-lightbox-title="Naturaleza en formato visual" data-lightbox-alt="Naturaleza en formato visual Arte Fay">
+                                <img class="imagen-responsiva carrusel-imagen" src="../assets/categoria-pajaritos.png" alt="Naturaleza en formato visual Arte Fay">
+                            </button>
+                            <div class="carrusel-contenido">
+                                <span class="seccion-etiqueta">Formatos para imprimir</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <button class="carrusel-control carrusel-control--anterior" type="button" data-carrusel-anterior aria-label="Imagen anterior">&#10094;</button>
+                <button class="carrusel-control carrusel-control--siguiente" type="button" data-carrusel-siguiente aria-label="Imagen siguiente">&#10095;</button>
+                <div class="carrusel-indicadores" data-carrusel-indicadores aria-label="Seleccionar imagen"></div>
+            </div>
+        </section>
+        <div class="clases-intro">
+            <h1>Fotografía Artística</h1>
+            <p>Instantes de la naturaleza capturados a través del lente. Impresiones de alta calidad que trasladan la belleza del exterior a tus paredes.</p>
+        </div>
+        <section class="venta-panel venta-panel--fotos reveal" aria-label="Razones para comprar fotografías Arte Fay">
+            <div class="venta-panel__mensaje">
+                <span class="seccion-etiqueta">Mirada natural</span>
+                <h2>Fotografías que acercan paisaje, calma y luz a tu casa.</h2>
+                <p>La información clave se presenta como una decisión de compra simple: origen, acabado y formato.</p>
+            </div>
+            <ul class="venta-panel__lista">
+                <li class="venta-beneficio">
+                    <i class="fa-solid fa-camera" aria-hidden="true"></i>
+                    <span><strong>Captura cuidada</strong> Composiciones nítidas con foco en paisajes, aves y detalles naturales.</span>
+                </li>
+                <li class="venta-beneficio">
+                    <i class="fa-solid fa-sun" aria-hidden="true"></i>
+                    <span><strong>Luz honesta</strong> Ediciones sutiles que respetan colores reales y atmósfera del entorno.</span>
+                </li>
+                <li class="venta-beneficio">
+                    <i class="fa-solid fa-crop-simple" aria-hidden="true"></i>
+                    <span><strong>Formato consultable</strong> Pregunta por tamaño, papel y disponibilidad antes de imprimir.</span>
+                </li>
+            </ul>
+        </section>
+
+        <h2 class="tienda-subtitulo-interno">Galería Fotográfica</h2>
+        
+        <!-- Grilla de Fotos en Venta -->
+        <div class="productos-grid">
+            
+            <!-- Producto 1: Foto -->
+            <div class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <!-- Si guardas tus imágenes en la raíz del proyecto, déjales el ../ antes -->
+                    <img src="../prod-foto1.jpg" alt="Fotografía Bosque Nativo">
+                </div>
+                <div class="producto-info">
+                    <h3>Bosque Nativo</h3>
+                    <p>Impresión de alta resolución en papel fotográfico mate. No incluye marco.</p>
+                    <span class="producto-precio">$18.000</span>
+                    <a href="https://wa.me/56932930827?text=¡Hola!%20Me%20interesa%20comprar%20la%20Fotografía%20Bosque%20Nativo." target="_blank" rel="noopener noreferrer" class="btn-comprar">
+                        <i class="fab fa-whatsapp"></i> Comprar
+                    </a>
+                </div>
+            </div>
+
+            <!-- Producto 2: Foto -->
+            <div class="tarjeta-producto">
+                <div class="producto-imagen">
+                    <img src="../prod-foto2.jpg" alt="Fotografía Amanecer en la Montaña">
+                </div>
+                <div class="producto-info">
+                    <h3>Amanecer en la Montaña</h3>
+                    <p>Captura de paisaje en formato panorámico, ideal para decoración de interiores.</p>
+                    <span class="producto-precio">$22.000</span>
+                    <a href="https://wa.me/56932930827?text=¡Hola!%20Me%20interesa%20comprar%20la%20Fotografía%20Amanecer%20en%20la%20Montaña." target="_blank" rel="noopener noreferrer" class="btn-comprar">
+                        <i class="fab fa-whatsapp"></i> Comprar
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Componente Flotante de WhatsApp con Globo Personalizado -->
+    <div class="whatsapp-container">
+        <div class="whatsapp-menu" id="waMenu" aria-hidden="true">
+            <div class="wa-menu-header">
+                <h4>¿Cómo te podemos ayudar?</h4>
+                <p>Selecciona una opción para chatear:</p>
+            </div>
+            <div class="wa-menu-body">
+                <a href="https://wa.me/56932930827?text=¡Hola!%20Me%20gustaría%20agendar%20una%20clase%20de%20arte." target="_blank" rel="noopener noreferrer" class="wa-option">
+                    <i class="fas fa-graduation-cap" aria-hidden="true"></i> Quiero agendar una clase
+                </a>
+                <a href="https://wa.me/56932930827?text=¡Hola!%20Me%20interesa%20hacer%20un%20pedido%20de%20un%20producto." target="_blank" rel="noopener noreferrer" class="wa-option">
+                    <i class="fas fa-shopping-basket" aria-hidden="true"></i> Quiero hacer un pedido
+                </a>
+                <a href="https://wa.me/56932930827?text=¡Hola!%20Tengo%20una%20consulta%20sobre%20Arte%20Fay." target="_blank" rel="noopener noreferrer" class="wa-option">
+                    <i class="fas fa-comment-dots" aria-hidden="true"></i> Otra consulta
+                </a>
+            </div>
+        </div>
+        <div class="wa-bubble">Pide tu fotografía aquí</div>
+        <button class="btn-whatsapp-flotante" type="button" onclick="toggleWhatsAppMenu(event)" title="Contacto WhatsApp" aria-label="Abrir opciones de WhatsApp" aria-expanded="false" aria-controls="waMenu">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+        </button>
+    </div>
+        <!-- Pie de Página (Footer) Simplificado -->
+    <footer class="pie-pagina">
+        <div class="footer-contenido">
+            <a class="footer-logo" href="../index.html">Arte Fay</a>
+            <p class="footer-frase">Arte, ilustraciones y talleres con dedicación.</p>
+            <a class="footer-instagram" href="https://www.instagram.com/arte_fay/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram" aria-hidden="true"></i> @arte_fay
+            </a>
+        </div>
+        <div class="footer-derechos">
+            <p>&copy; 2026 Arte Fay. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="../Art.js"></script>
+</body>
+</html>
