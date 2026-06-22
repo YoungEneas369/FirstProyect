@@ -55,8 +55,7 @@ img {
 
 .imagen-responsiva {
     width: 100%;
-    max-width: 1350px;
-
+    max-width: 100%;
     height: auto;
 }
 
@@ -1656,7 +1655,15 @@ body > .btn-whatsapp-flotante {
     z-index: 2;
     grid-column: 2;
     grid-row: 1;
-    min-height: clamp(340px, 46vw, 610px);
+    
+    /* 1. Reducimos el alto para que vaya acorde a tu nueva imagen */
+    min-height: 400px; /* O el alto fijo en píxeles que mejor le quede a tu foto */
+    
+    /* 2. Le ponemos un techo de ancho para que no se estire hacia los lados */
+    width: 100%;
+    max-width: 450px;  /* Ajusta este número al ancho real de tu imagen */
+    justify-self: center; /* Centra el contenedor dentro de su espacio de la grilla */
+
     overflow: hidden;
     border: 1px solid rgba(37, 43, 42, 0.1);
     border-radius: var(--radius);
